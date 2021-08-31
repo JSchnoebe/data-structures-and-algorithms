@@ -11,7 +11,7 @@ Use `forEach` to loop over the input array and work with each value.  Push the n
 const addOne = (arr) => {
   let result = [];
   // Solution code here...
-  arr.forEach((number, i) => {
+  arr.forEach((number) => {
     result.push(number + 1);
 
   });
@@ -29,7 +29,7 @@ Use `forEach` to loop over the input array. Modify each string, and add the upda
 const addExclamation = (arr) => {
   let result = [];
   // Solution code here...
-  arr.forEach((string, i) => {
+  arr.forEach((string) => {
     result.push(string + '!');
 
   });
@@ -44,13 +44,13 @@ Write a function named `allUpperCase` that takes an array of strings, and return
 Use `forEach` to loop over the input array. The modified strings should each be added into a local array. Return that local array.
 ------------------------------------------------------------------------------------------------ */
 
-const allUpperCase = (arr) => {
+const allUpperCase = (words) => {
   let results = [];
-  let forEachResult = words.forEach((word, i) => {
-    result[i] = word.toUpperCase();
-  // Solution code here...
-});
-return results;
+  words.forEach((word, i) => {
+    results[i] = word.toUpperCase();
+  });
+  return results;
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -127,10 +127,10 @@ const createList = (availableItems) => {
 
   availableItems.forEach(item => {
     if (item.available === true) {
-      result.push(item.name)
+      result.push(item.name);
     }
   });
-  return result
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
