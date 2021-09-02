@@ -23,8 +23,13 @@ CHALLENGE 2
 Write a function named addOne that, given an array of numbers, uses map to return a new array with each value simply incremented by 1. 
 ------------------------------------------------------------------------------------------------ */
 
-const addOne = (arr) => {
-  // Solution code here...
+const addOne = (numbers) => {
+  let result = [];
+
+  numbers.forEach((number) =>{
+    result.push(number) + 1;
+  });
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
