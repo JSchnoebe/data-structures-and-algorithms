@@ -133,8 +133,16 @@ let starWarsData = [{
   gender: 'female'
 }];
 
-const returnNames = (arr) => {
-  // Solution code here...
+const returnNames = (characters) => {
+  return characters.reduce(
+    (names, currentCharacter) => {
+      console.log(names);
+      names.push(currentCharacter.name);
+      return names;
+    },
+    []//this is my accumulator
+
+  );
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -146,7 +154,9 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 ------------------------------------------------------------------------------------------------ */
 
 const reversedString = (str) => {
-  // Solution code here...
+  return str.split('').reduce(
+    (accumulator, nextStr) => nextStr + accumulator, ''
+  );
 };
 
 /* ------------------------------------------------------------------------------------------------
