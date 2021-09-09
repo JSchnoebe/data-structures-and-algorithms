@@ -55,8 +55,9 @@ let characters = [
 ];
 
 const sortByChildren = (charArray) => {
-  let totalChildren = characters.
+  let totalChildren = characters.children
   console.log(totalChildren);
+  totalChildren.map(charArray)
   return totalChildren;
 
 };
@@ -69,7 +70,9 @@ Write a function named containsW that takes in a string. This function should us
 ------------------------------------------------------------------------------------------------ */
 
 const containsW = (str) => {
-  if str.includes('w') = true;
+  let regex = /w/;
+  return regex.test(str);
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
