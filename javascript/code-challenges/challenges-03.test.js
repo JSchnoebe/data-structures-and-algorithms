@@ -9,9 +9,8 @@ Write a function called addTwo that takes in an array and adds two to every valu
 const addTwo = (arr) => {
   let result = [];
   for (let i =0; i < arr.length; i++) {
-    let integer = [i];
-    let addTwo = 2;
-    result.push(integer + addTwo);
+    let integer = [i] + 2;
+    result.push(integer);
   }
   return result;
 };
