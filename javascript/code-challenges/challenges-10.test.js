@@ -8,8 +8,9 @@ Write a function named returnTen, takes in a string and uses split and splice to
 ------------------------------------------------------------------------------------------------ */
 
 function returnTen(str){
-  let str = [];
-  let result = str.slice(1, 11);
+  let newArray = str.split("");
+  let result = newArray.splice(1, 11);
+  return result;
 }
 
 /* ------------------------------------------------------------------------------------------------
