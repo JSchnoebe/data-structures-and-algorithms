@@ -8,9 +8,7 @@ Write a function named returnTen, takes in a string and uses split and splice to
 ------------------------------------------------------------------------------------------------ */
 
 function returnTen(str){
-  let newArray = str.split("");
-  let result = newArray.splice(1, 11);
-  return result;
+  // Solution code here...
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -28,7 +26,7 @@ For example:
 return: 23
 ------------------------------------------------------------------------------------------------ */
 const findMax = (matrix) => {
-  let result = 
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
