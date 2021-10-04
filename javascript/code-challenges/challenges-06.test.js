@@ -22,10 +22,14 @@ For example:
 Returns: ['dyoll', 'eimaj'];
 ------------------------------------------------------------------------------------------------ */
 
+
 const getNames = (peopleObj) => {
   let result = [];
 
   return peopleObj.map()
+
+const getNames = (people) => {
+
 
 };
 
