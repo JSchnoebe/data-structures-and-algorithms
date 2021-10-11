@@ -15,5 +15,6 @@ namespace DataStructures
 
       Head = newNode;
     }
+
   }
 }
