@@ -65,9 +65,16 @@ namespace DataStructures
 
       Node current = Head;
 
-      //while (current != null)
-      //{
-      //  if ()
+      for (int i = 0; i < value; i++)
+      {
+        if (current.Next.Value == newValue)
+        {
+          current.Next = newNode;
+        } else
+        {
+          current = current.Next;
+        }
+      }
       }
    }
 }
