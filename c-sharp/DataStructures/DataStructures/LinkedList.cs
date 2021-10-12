@@ -30,12 +30,10 @@ namespace DataStructures
         if (current.Next == null)
         {
           current.Next = newNode;
-        } else
-        {
+          break;
+        }
           current = current.Next;
         }
-
-      }
 
     }
 
@@ -51,10 +49,10 @@ namespace DataStructures
         if (current.Next.Value == newValue)
         {
           current.Next = newNode;
-        } else
-        {
-          current = current.Next;
+          break;
+
         }
+          current = current.Next;
       }
     }
 
@@ -70,11 +68,10 @@ namespace DataStructures
         if (current.Next.Value == newValue)
         {
           current.Next = newNode;
-        } else
-        {
+          break;
+        }
           current = current.Next;
         }
       }
-      }
-   }
+  }
 }
