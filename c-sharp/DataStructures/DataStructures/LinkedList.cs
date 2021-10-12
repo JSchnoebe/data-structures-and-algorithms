@@ -30,9 +30,11 @@ namespace DataStructures
         if (current.Next == null)
         {
           current.Next = newNode;
+        } else
+        {
+          current = current.Next;
         }
 
-        current = current.Next;
       }
 
     }
@@ -49,11 +51,23 @@ namespace DataStructures
         if (current.Next.Value == newValue)
         {
           current.Next = newNode;
+        } else
+        {
+          current = current.Next;
         }
-
-        current = current.Next;
       }
     }
 
-  }
+    public void InsertAfter(int value, int newValue)
+    {
+      Node newNode = new Node();
+      newNode.Value = value;
+
+      Node current = Head;
+
+      //while (current != null)
+      //{
+      //  if ()
+      }
+   }
 }
