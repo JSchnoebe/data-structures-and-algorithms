@@ -12,3 +12,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 - [Array Binary Search](/c-sharp/DataStructures/CodeChallenges/array-binary-search/README.md)
 - [Array Reverse](/c-sharp/DataStructures/CodeChallenges/array-reverse/README.md)
 - [Linked List Insertions](/c-sharp/DataStructures/CodeChallenges/linked-list-insertions/README.md)
+- [Find Kth Value](/c-sharp/DataStructures/CodeChallenges/linked-list-kth/README.md)
