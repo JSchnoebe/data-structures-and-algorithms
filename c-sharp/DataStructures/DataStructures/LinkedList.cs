@@ -72,6 +72,24 @@ namespace DataStructures
         }
           current = current.Next;
         }
+    }
+
+    public int FindKthValue(int value)
+    {
+      Node current = Head;
+      current.Next = current;
+      int length = 0;
+
+      while(current != null)
+      {
+        for(int i = 0; i < length - value; i++)
+        {
+          length++;
+        }
+        
+        current.Next = current;
       }
+      return length;
+    }
   }
 }
