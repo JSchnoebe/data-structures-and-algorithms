@@ -85,12 +85,13 @@ namespace DataStructures
         length++;
         
       }
-      return length;
+
+      current = Head;
 
       for (int i = 0; i < length - value; i++)
-      {
-        length++;
-      }
+      
+        current = current.Next;
+        return current.Value;
     }
   }
 }

@@ -6,7 +6,6 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 ### 301 Code Challenges
 
-
 ### 401 Data Structures, Code Challenges
 
 - [Array Binary Search](/c-sharp/DataStructures/CodeChallenges/array-binary-search/README.md)
