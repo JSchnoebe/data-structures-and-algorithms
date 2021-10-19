@@ -93,5 +93,22 @@ namespace DataStructures
         current = current.Next;
         return current.Value;
     }
+
+    public static void LinkedListZip(LinkedList list1, LinkedList list2)
+    {
+      Node current1 = list1.Head;
+      Node current2 = list2.Head;
+
+      while (current1 != null || current2 != null)
+      {
+        current1.Next = current2;
+        current2.Next = current1.Next;
+
+        if (current1 == null || current2 == null)
+        {
+          return;
+        }
+      }
+    }
   }
 }
