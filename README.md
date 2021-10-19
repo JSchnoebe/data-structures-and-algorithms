@@ -13,3 +13,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 - [Linked List Insertions](/c-sharp/DataStructures/CodeChallenges/linked-list-insertions/README.md)
 - [Find Kth Value](/c-sharp/DataStructures/CodeChallenges/linked-list-kth/README.md)
 - [Zip Linked Lists](/c-sharp/DataStructures/CodeChallenges/linked-list-zip/README.md)
+- [Implement a Queue using two Stacks](/c-sharp/DataStructures/CodeChallenges/stack-queue-pseudo/README.md)
