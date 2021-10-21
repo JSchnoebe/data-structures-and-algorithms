@@ -15,3 +15,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 - [Zip Linked Lists](/c-sharp/DataStructures/CodeChallenges/linked-list-zip/README.md)
 - [Implement a Queue using two Stacks](/c-sharp/DataStructures/CodeChallenges/stack-queue-pseudo/README.md)
 - [Queue For An Animal Shelter](/c-sharp/DataStructures/CodeChallenges/stack-queue-animal-shelter/README.md)
+- [Stack Queue Brackets](/c-sharp/DataStructures/CodeChallenges/stack-queue-brackets/README.md)
