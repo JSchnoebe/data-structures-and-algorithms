@@ -1,10 +1,9 @@
 using System;
 namespace DataStructures.trees
 {
-  public class BinarySearchTree
+  public class BinarySearchTree : BinaryTree<int>
   {
-    public BinarySearchTree()
-    {
-    }
+    void Add(int value) {  }
+    bool Contains(int value) {  }
   }
 }

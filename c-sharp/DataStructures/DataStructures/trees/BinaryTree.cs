@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using CodeChallenges.trees;
 using DataStructures.trees;
 namespace DataStructures.trees
 {
@@ -8,13 +10,20 @@ namespace DataStructures.trees
 
     public IEnumerable<T> PreOrder()
     {
-      // Option 1
-      return PreOrder(Root);
 
-      List<T> results = new List<T>();
-      PreOrder(Root, results);
+      return PreOrder(Root, new List<T>());
+    }
+
+
+    private IEnumerable<T> PreOrder(Node<T> root, List<T> results)
+    {
+      if (Root.Left != null)
+        PreOrder(Root.Left, results);
+
+      if (Root.Right != null)
+        PreOrder(Root.Right, results);
+
       return results;
     }
-    private IEnumerable<T> PreOrder(Node root, List<T> results) { }
   }
 }

@@ -1,27 +1,27 @@
-﻿namespace DataStructures
-{
-  public partial class Program
-  {
-    class PseudoQueue
-    {
-      Stack s1 = new Stack();
-      Stack s2 = new Stack();
-      int v = int.MaxValue;
+﻿//namespace DataStructures
+//{
+  //  public partial class Program
+  //  {
+  //    //class PseudoQueue
+  //    //{
+  //    //  Stack s1 = new Stack();
+  //    //  Stack s2 = new Stack();
+  //int v = int.MaxValue;
 
-      Enqueue(v) {
+  //    //  Enqueue(v) {
 
-        s1.push(v);
-      }
+  //s1.push(v);
+  //    //  }
 
-      Dequeue()
-      {
-        if (s2.IsEmpty)
-        {
-          while (!s1.IsEmpty)
-            s2.push(s1.pop())
-        };
-        return s2.pop();
-      }
-    }
-  }
-}
+  //    //  Dequeue()
+  //    //  {
+  //    //    if (s2.IsEmpty)
+      //{
+            //while (!s1.IsEmpty)
+  //    //        s2.push(s1.pop());
+//};
+//    //    return s2.pop(v);
+//        //}
+//    //}
+//  //}
+////}
