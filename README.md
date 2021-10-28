@@ -18,3 +18,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 - [Stack Queue Brackets](/c-sharp/DataStructures/CodeChallenges/stack-queue-brackets/README.md)
 - [Tree Max](/c-sharp/DataStructures/CodeChallenges/tree-max/README.md)
 - [Tree Breadth First](/c-sharp/DataStructures/CodeChallenges/tree-breadth-first/README.md)
+- [Tree Fizz Buzz](/c-sharp/DataStructures/CodeChallenges/tree-fizz-bizz/README.md)
