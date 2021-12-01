@@ -8,4 +8,10 @@
   <ItemGroup>
     <ProjectReference Include="..\DataStructures\DataStructures.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="stack-queue-animal-shelter\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="stack-queue-animal-shelter\" />
+  </ItemGroup>
 </Project>

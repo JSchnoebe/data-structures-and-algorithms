@@ -6,18 +6,16 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 ### 301 Code Challenges
 
-Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
-
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
-
-If you have not already done so, run `npm install` from within this folder to setup your system to be able to run tests using `Jest`
-
-To run your tests
-
-- Change to the `javascript` folder
-- run `npm test` to run all of the tests
-- run `npm test ##` to only run tests for challenge ## (i.e. 01)
-
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+- [Array Binary Search](/c-sharp/DataStructures/CodeChallenges/array-binary-search/README.md)
+- [Array Reverse](/c-sharp/DataStructures/CodeChallenges/array-reverse/README.md)
+- [Linked List Insertions](/c-sharp/DataStructures/CodeChallenges/linked-list-insertions/README.md)
+- [Find Kth Value](/c-sharp/DataStructures/CodeChallenges/linked-list-kth/README.md)
+- [Zip Linked Lists](/c-sharp/DataStructures/CodeChallenges/linked-list-zip/README.md)
+- [Implement a Queue using two Stacks](/c-sharp/DataStructures/CodeChallenges/stack-queue-pseudo/README.md)
+- [Queue For An Animal Shelter](/c-sharp/DataStructures/CodeChallenges/stack-queue-animal-shelter/README.md)
+- [Stack Queue Brackets](/c-sharp/DataStructures/CodeChallenges/stack-queue-brackets/README.md)
+- [Tree Max](/c-sharp/DataStructures/CodeChallenges/tree-max/README.md)
+- [Tree Breadth First](/c-sharp/DataStructures/CodeChallenges/tree-breadth-first/README.md)
+- [Tree Fizz Buzz](/c-sharp/DataStructures/CodeChallenges/tree-fizz-bizz/README.md)
